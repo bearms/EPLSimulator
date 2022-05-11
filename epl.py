@@ -5,6 +5,8 @@ higher = 1.148698355
 # LOWER RATED TEAM
 lower = 0.8705505633
 
+#season 2021/22
+
 
 # DEFINING THE TEAM CLASS
 class Team:
@@ -20,19 +22,19 @@ class Team:
 # INITIALISING ALL OF THE TEAMS - NAMES AND SKILL LEVELS
 arsenal = Team("Arsenal", 16)
 aston_villa = Team("Aston Villa", 6)
-bournemouth = Team("AFC Bournemouth", 8)
 brighton = Team("Brighton and Hove Albion", 5)
 burnley = Team("Burnley", 4)
+brenford = Team("Brentford", 1)
 chelsea = Team("Chelsea", 17)
 crystal_palace = Team("Crystal Palace", 11)
 everton = Team("Everton", 14)
+leeds = Team("Leeds",8)
 leicester = Team("Leicester City", 12)
-liverpool = Team("Liverpool", 19)
-man_city = Team("Manchester City", 20)
+liverpool = Team("Liverpool", 20)
+man_city = Team("Manchester City", 19)
 man_united = Team("Manchester United", 15)
 newcastle = Team("Newcastle United", 3)
 norwich = Team("Norwich City", 2)
-sheffield_united = Team("Sheffield United", 1)
 southampton = Team("Southampton", 7)
 tottenham = Team("Tottenham Hotspur", 18)
 watford = Team("Watford", 9)
