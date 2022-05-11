@@ -24,7 +24,7 @@ arsenal = Team("Arsenal", 16)
 aston_villa = Team("Aston Villa", 6)
 brighton = Team("Brighton and Hove Albion", 5)
 burnley = Team("Burnley", 4)
-brenford = Team("Brentford", 1)
+brentford = Team("Brentford", 1)
 chelsea = Team("Chelsea", 17)
 crystal_palace = Team("Crystal Palace", 11)
 everton = Team("Everton", 14)
@@ -42,9 +42,9 @@ west_ham = Team("West Ham United", 10)
 wolves = Team("Wolverhampton Wanderers", 13)
 
 # HOME/AWAY TEAMS FOR PLAYING EACH TIME AGAINST EACH OTHER
-teams = [arsenal, aston_villa, bournemouth, brighton, burnley, chelsea,
-         crystal_palace, everton, leicester, liverpool, man_city, man_united,
-         newcastle, norwich, sheffield_united, southampton, tottenham, watford,
+teams = [arsenal, aston_villa, brentford, brighton, burnley, chelsea,
+         crystal_palace, everton, leicester, leeds, liverpool, man_city, man_united,
+         newcastle, norwich, southampton, tottenham, watford,
          west_ham, wolves]
 
 # PRINT ALL TEAMS' NAME AND SKILL
