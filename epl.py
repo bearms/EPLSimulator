@@ -1,3 +1,4 @@
+Updated to the new 23/24 EPL season 
 import math, random
 
 # HIGHER RATED TEAM
@@ -19,32 +20,32 @@ class Team:
         self.gf += goals
 
 
-# INITIALISING ALL OF THE TEAMS - NAMES AND SKILL LEVELS
-arsenal = Team("Arsenal", 16)
-aston_villa = Team("Aston Villa", 6)
-brighton = Team("Brighton and Hove Albion", 5)
-burnley = Team("Burnley", 4)
-brentford = Team("Brentford", 1)
+# INITIALISING ALL OF THE TEAMS - NAMES AND SKILL LEVELS 23/24 season
+arsenal = Team("Arsenal", 19)
+aston_villa = Team("Aston Villa", 12)
+brighton = Team("Brighton and Hove Albion", 13)
+bournemouth = Team("Bournemouth", 8)
+brentford = Team("Brentford", 9)
+burnley = Team("Burnley", 7)
 chelsea = Team("Chelsea", 17)
-crystal_palace = Team("Crystal Palace", 11)
-everton = Team("Everton", 14)
-leeds = Team("Leeds",8)
-leicester = Team("Leicester City", 12)
+crystal_palace = Team("Crystal Palace", 15)
+everton = Team("Everton", 12)
+fulham = Team("Fulham", 12)
+luton = Team("Luton Town", 6)
 liverpool = Team("Liverpool", 20)
-man_city = Team("Manchester City", 19)
-man_united = Team("Manchester United", 15)
-newcastle = Team("Newcastle United", 3)
-norwich = Team("Norwich City", 2)
-southampton = Team("Southampton", 7)
-tottenham = Team("Tottenham Hotspur", 18)
-watford = Team("Watford", 9)
-west_ham = Team("West Ham United", 10)
-wolves = Team("Wolverhampton Wanderers", 13)
+man_city = Team("Manchester City", 20)
+man_united = Team("Manchester United", 18)
+newcastle = Team("Newcastle United", 14)
+nottingham = Team("Nottm Forest", 6)
+sheffield = Team("Sheffield United", 8)
+tottenham = Team("Tottenham Hotspur", 17)
+west_ham = Team("West Ham United", 15)
+wolves = Team("Wolverhampton Wanderers", 11)
 
 # HOME/AWAY TEAMS FOR PLAYING EACH TIME AGAINST EACH OTHER
-teams = [arsenal, aston_villa, brentford, brighton, burnley, chelsea,
-         crystal_palace, everton, leicester, leeds, liverpool, man_city, man_united,
-         newcastle, norwich, southampton, tottenham, watford,
+teams = [arsenal, aston_villa, bournemouth,  brentford, brighton, burnley, chelsea,
+         crystal_palace, everton, fulham, luton, liverpool, man_city, man_united,
+         newcastle, nottingham, sheffield, tottenham,
          west_ham, wolves]
 
 # PRINT ALL TEAMS' NAME AND SKILL
