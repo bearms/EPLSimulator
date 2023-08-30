@@ -1,4 +1,4 @@
-Updated to the new 23/24 EPL season 
+#Updated to the new 23/24 EPL season 
 import math, random
 
 # HIGHER RATED TEAM
